@@ -1,15 +1,16 @@
 import React from 'react'
 
-export const Search = ({value}) => {
+export const Search = ({value, setSearchMovie}) => {
     return (
-        <div className="form-group" >
-      <label htmlFor="formGroupExampleInput"></label>
+        <div className="form-group input-container" >
+    
       <input
         type="text"
-        className="form-control input"
+        className='input'
         id="formGroupExampleInput"
-        placeholder="Enter movie title"
-        value={value}
+        placeholder="Search movie title"
+          value={value}
+          onChange={text =>setSearchMovie(text.target.value)}
       />
     </div>
     )

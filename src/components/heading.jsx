@@ -21,7 +21,7 @@ export const MainHeader = ({text}) => {
 export const MovieHeader = ({text}) => {
     return (
         <div className="movie-header">
-             <h2> {text}</h2>
+             <h4> Results for {text}</h4>
 
         </div>
        
