@@ -15,14 +15,21 @@ header h1 {
 .heading {
     
     margin-left: 16px;
+    padding-top: 20px;
 
+}
+.input-container {
+    width: 30%;
+    height: 50px
 }
 
 .input {
-    margin-left:16px;
-    width: 90%;
+    margin-left:20px;
+    width: 50%;
     height: 20px;
-    padding-bottom: 20px;
+    padding:12px 20px 12px 40px;
+    box-sizing: border-box;
+
 }
 
 .movie-header {
@@ -62,6 +69,27 @@ header h1 {
     font-family: 'Arial';
 }
 .movie-card {
-    padding-top: 20px;
+    padding-top: 50px;
     margin-left: 20px;
+ 
+    
+}
+
+.movie-app {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    flex-basis: auto;
+    
+}
+
+.button {
+    margin-top: px;
+    background-color: green;
+}
+
+.card-photo {
+    height: 400px;
+    width: 200px
 }
